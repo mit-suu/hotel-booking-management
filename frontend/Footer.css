@@ -1,0 +1,148 @@
+.footer-container {
+  background-color: #f3f3f3;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.newsletter-section {
+  background-color: #4361ee;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  margin: 15px;
+}
+
+.newsletter-content {
+  max-width: 500px;
+  color: white;
+}
+
+.newsletter-content h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-content p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-group input {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.input-group button {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+}
+
+.logo-area {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.plus-icon {
+  color: orange;
+}
+
+.footer-links {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin: 15px;
+}
+
+.footer-links h3 {
+  color: orange;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 0.3rem 0;
+}
+
+.about {
+  max-width: 300px;
+}
+
+.social-icons svg {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+.footer-kicks {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-bottom {
+  background-color: #e6e6e6;
+  color: #1e1e1e;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+}
+
+.footer-bottom a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .newsletter-section,
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-kicks {
+    font-size: 3rem;
+  }
+
+  .input-group input {
+    width: 100%;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .logo-area {
+    margin-top: 1rem;
+  }
+}
